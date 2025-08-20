@@ -14,5 +14,6 @@ export default defineConfig({
   )],
   build: {
     chunkSizeWarningLimit: 1000 // It output not large... less than 1024kb
-  }
+  },
+  base: "opsplash-on-web"
 })
